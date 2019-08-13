@@ -15,7 +15,6 @@ Please cite our paper if using the code in an academic publication. <br>
 
 For algorithmic details, please refer to our paper. <br>
 
----
 ## How to use
 The code is tested in MATLAB 2014b and 2018a (64bit) under the MS Windows 10 64bit version with
 Intel Core i7-8700 CPU @ 3.20GHz and 32GB RAM. <br>
