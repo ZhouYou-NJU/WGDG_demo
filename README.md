@@ -25,8 +25,8 @@ Intel Core i7-8700 CPU @ 3.20GHz and 32GB RAM. <br>
 3. Run "main.m" to test the demo included in this package.
 
 Besides, <br>
-1. The folder **GenerateIlluminationPattern** includes codes to generate illumination Patterns.
-2. The folder **GenerateRawImageSet** includes codes to generate Raw Image Set in differet situations.
+1. The folder **GenerateIlluminationPattern** includes codes to generate illumination patterns.
+2. The folder **GenerateRawImageSet** includes codes to generate raw image set in differet situations.
 3. **getRec_GS()** is the GS reconstruction function, and **getRec_WFG()** is the proposed WFG 
 reconstruction function.
 4. **getRoundMatrixMask()** generates the pinhole mask matrix in use, and **prop()** realizes the 
