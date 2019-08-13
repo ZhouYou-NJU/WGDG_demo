@@ -33,8 +33,8 @@ reconstruction function.
 free-space propagation of light field.
 
 ## Parameters setting
-We realize both GS and WFG algorithms of lensless imgaing with mask updating in the demo. The GS 
-algorithm of lensless imaging is based on the references [1][2]. <br>
+We realize both GS and WFG algorithms of lensless imaging with mask updating in the demo. The GS 
+algorithm here is based on the references [1][2]. <br>
 1. The GS method will reduce the contrast of recovered image with the existance of noise, so a contrast 
 enhancement process (set ***CEflag = 1***) is always needed to show the result. The proposed WFG method 
 does not have this problem. For performance comparison, the images shown in the paper all have adjusted 
