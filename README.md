@@ -23,13 +23,16 @@ Intel Core i7-8700 CPU @ 3.20GHz and 32GB RAM. <br>
 2. Include code and subdirectory in your Matlab path.
 3. Run "main.m" to test the demo included in this package.
 
-Besides, <br>
+## Some illustrations
 1. The folder **GenerateIlluminationPattern** includes codes to generate illumination patterns.
 2. The folder **GenerateRawImageSet** includes codes to generate raw image set in differet situations.
 3. **getRec_GS()** is the GS reconstruction function, and **getRec_WFG()** is the proposed WFG 
 reconstruction function.
 4. **getRoundMatrixMask()** generates the pinhole mask matrix in use, and **prop()** realizes the 
 free-space propagation of light field.
+5. The derivative process of our algorithm uses both the vector or matrix forms. But the final updating equations
+of WF algorithm are all represented in matrices for more efficient calculation and easier code realization 
+(like by MATLAB).
 
 ## Parameters setting
 We realize both GS and WFG algorithms of lensless imaging with mask updating in the demo. The GS 
@@ -44,7 +47,7 @@ can be set according to the equations in the paper, but always need careful adju
 parameters can be set to some constant values empirically. For example, we can simply set the ***Delta*** 
 parameters of **object**, **pinhole mask**, and **noise matrix** to 0.5, 0.008, and 0.002 respectively. 
 
-## Important note
+## Important notes
 If you have any questions regarding this code, please contact You Zhou (zhouyou@nju.edu.cn).
 
 References of GS algorithm for lensless imaging: <br>
