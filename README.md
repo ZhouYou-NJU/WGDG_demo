@@ -1,15 +1,15 @@
-# WFG_demo
-*Description: Lensless imaging reconstruction code using Wirtinger flow optimization. <br>*
+# WGDG_demo
+*Description: Lensless imaging reconstruction code using Wirtinger gradient descent optimization. <br>*
 
-Title: Matlab code for "Noise-robust lensless imaging based on Wirtinger flow optimization" <br>
+Title: Matlab code for "Noise-robust lensless imaging based on Wirtinger gradient descent optimization" <br>
 Author: You Zhou (zhouyou@nju.edu.cn), Xia Hua, Zibang Zhang and Xuemei Hu, etc. <br>
 Version: 1.0 <br>
 Copyright: 2019, You Zhou, Xia Hua, Zibang Zhang, Xuemei Hu, Jingang Zhong, Guoan Zheng, Xun Cao*. <br>
 
-# Matlab code for "Noise-robust lensless imaging based on Wirtinger flow optimization"
-This package contains an implementation of Wirtinger flow optimization based lensless imaging algorithm 
+# Matlab code for "Noise-robust lensless imaging based on Wirtinger gradient descent optimization"
+This package contains an implementation of Wirtinger gradient descent optimization based lensless imaging algorithm 
 described in the paper: You Zhou, Xia Hua, Zibang Zhang and Xuemei Hu, etc., "Noise-robust lensless imaging 
-based on Wirtinger flow optimization". <br>
+based on Wirtinger gradient descent optimization". <br>
 
 Please cite our paper if using the code in an academic publication. <br>
 
@@ -26,7 +26,7 @@ Intel Core i7-8700 CPU @ 3.20GHz and 32GB RAM. <br>
 ## Some illustrations
 1. The folder **GenerateIlluminationPattern** includes codes to generate illumination patterns.
 2. The folder **GenerateRawImageSet** includes codes to generate raw image set in differet situations.
-3. **getRec_GS()** is the GS reconstruction function, and **getRec_WFG()** is the proposed WFG 
+3. **getRec_GS()** is the GS reconstruction function, and **getRec_WGDG()** is the proposed WGDG 
 reconstruction function.
 4. **getRoundMatrixMask()** generates the pinhole mask matrix in use, and **prop()** realizes the 
 free-space propagation of light field.
@@ -42,7 +42,7 @@ enhancement process (set ***CEflag = 1***) is always needed to show the result. 
 does not have this problem. However, for fair performance comparison, the images shown in the paper all 
 have adjusted their contrast using the 'Adjust the brightness and contrast' function and 'Auto' button 
 of ImageJ. 
-2. For WFG reconstruction, the ***Delta*** parameters (gradient descent step sizes) are improtant, which 
+2. For WGDG reconstruction, the ***Delta*** parameters (gradient descent step sizes) are improtant, which 
 can be set according to the equations in the paper, but always need careful adjustment. In fact, these 
 parameters can be set to some constant values empirically. For example, we can simply set the ***Delta*** 
 parameters of **object**, **pinhole mask**, and **noise matrix** to 0.5, 0.008, and 0.002 respectively. 
