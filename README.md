@@ -35,10 +35,10 @@ of WF algorithm are all represented in matrices for more efficient calculation a
 (like by MATLAB).
 
 ## Parameters setting
-We realize both GS and WFG algorithms of lensless imaging with mask updating in the demo. The GS 
+We realize both GS and WGDG algorithms of lensless imaging with mask updating in the demo. The GS 
 algorithm here is based on the references [1][2]. <br>
 1. The GS method will reduce the contrast of recovered image with the existance of noise, so a contrast 
-enhancement process (set ***CEflag = 1***) is always needed to show the result. The proposed WFG method 
+enhancement process (set ***CEflag = 1***) is always needed to show the result. The proposed WGDG method 
 does not have this problem. However, for fair performance comparison, the images shown in the paper all 
 have adjusted their contrast using the 'Adjust the brightness and contrast' function and 'Auto' button 
 of ImageJ. 
