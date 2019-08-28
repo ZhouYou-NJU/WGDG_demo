@@ -4,7 +4,7 @@
 Title: Matlab code for "Noise-robust lensless imaging based on Wirtinger gradient descent optimization" <br>
 Author: You Zhou (zhouyou@nju.edu.cn), Xia Hua, Zibang Zhang and Xuemei Hu, etc. <br>
 Version: 1.0 <br>
-Copyright: 2019, You Zhou, Xia Hua, Zibang Zhang, Xuemei Hu, Jingang Zhong, Guoan Zheng, Xun Cao*. <br>
+Copyright: 2019, You Zhou, Xia Hua, Zibang Zhang, Xuemei Hu, Krishna Dixit, Jingang Zhong, Guoan Zheng, Xun Cao*. <br>
 
 # Matlab code for "Noise-robust lensless imaging based on Wirtinger gradient descent optimization"
 This package contains an implementation of Wirtinger gradient descent optimization based lensless imaging algorithm 
