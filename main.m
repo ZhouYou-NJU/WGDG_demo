@@ -29,7 +29,7 @@ LEDBoardm.yint        = -1.5e-4;                % (unit: m)
 LEDBoardm.rotation    = 0.008;                  % (unit: rad)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %% Input object image
-InputImgSize          = round(280*UpSampleRatio);                                          % size of input image (assumed to be square)
+InputImgSize          = round(350*UpSampleRatio);                                          % size of input image (assumed to be square)
 TargetSize            = round(400*UpSampleRatio);                                          % image size after padding
 AmpImgPath            = 'liftingbody.png';                                                 % amplitude image
 PhaseImgPath          = 'lighthouse.png';                                                  % phase image
