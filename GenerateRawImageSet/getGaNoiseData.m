@@ -24,9 +24,10 @@ if ~exist(RawImgSaveFolder,'file')
 end
 % add Gaussian noise and save raw images
 RawImgSetG = RawImgSet;                                            % raw image set with Gaussian noise
+NoiseAverVal = 0.025;
 for iImg=1:nRawImg
     thisImg              = RawImgSetG(:,:,iImg);
-    thisImgGn            = imnoise(thisImg,'gaussian',0,deltaG^2); % add Gaussian noise
+    thisImgGn            = imnoise(thisImg,'gaussian',NoiseAverVal,deltaG^2); % add Gaussian noise
     RawImgSetG(:,:,iImg) = thisImgGn;
     ImgName              = sprintf('%s/RawImg_%0.2d.png',RawImgSaveFolder,iImg);
     imwrite(RawImgSetG(:,:,iImg),ImgName,'png');
