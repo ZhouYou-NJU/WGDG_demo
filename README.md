@@ -1,15 +1,14 @@
 # WGDG_demo
 *Description: Lensless imaging reconstruction code using Wirtinger gradient descent optimization. <br>*
 
-Title: Matlab code for "Noise-robust lensless imaging based on Wirtinger gradient descent optimization" <br>
+Title: Matlab code for "Wirtinger gradient descent optimization for reducing Gaussian noise in lensless microscopy" <br>
 Author: You Zhou (zhouyou@nju.edu.cn), Xia Hua, Zibang Zhang and Xuemei Hu, etc. <br>
 Version: 1.0 <br>
 Copyright: 2019, You Zhou, Xia Hua, Zibang Zhang, Xuemei Hu, Krishna Dixit, Jingang Zhong, Guoan Zheng, Xun Cao*. <br>
 
-# Matlab code for "Noise-robust lensless imaging based on Wirtinger gradient descent optimization"
+# Matlab code for "Wirtinger gradient descent optimization for reducing Gaussian noise in lensless microscopy"
 This package contains an implementation of Wirtinger gradient descent optimization based lensless imaging algorithm 
-described in the paper: You Zhou, Xia Hua, Zibang Zhang and Xuemei Hu, etc., "Noise-robust lensless imaging 
-based on Wirtinger gradient descent optimization". <br>
+described in the paper: You Zhou, Xia Hua, Zibang Zhang and Xuemei Hu, etc., "Wirtinger gradient descent optimization for reducing Gaussian noise in lensless microscopy". <br>
 
 Please cite our paper if using the code in an academic publication. <br>
 
