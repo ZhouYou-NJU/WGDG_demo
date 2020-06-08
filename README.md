@@ -12,7 +12,7 @@ described in the paper: You Zhou, Xia Hua, Zibang Zhang and Xuemei Hu, etc., "Wi
 
 Please cite our paper if using the code in an academic publication. <br>
 
-For algorithmic details, please refer to our paper. <br>
+For algorithmic details, please refer to our paper: https://www.sciencedirect.com/science/article/pii/S0143816620300671?via%3Dihub <br>
 
 ## How to use
 The code is tested in MATLAB 2014b and 2018a (64bit) under the MS Windows 10 64bit version with
